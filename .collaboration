@@ -163,17 +163,7 @@
   },
   {
     "ModuleName": "PCPage/Book_List Page",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T09:51:03.7427069+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Publisher\\Book_List Page.json",
-      "Pages\\Publisher\\Book_List Page.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/User",
