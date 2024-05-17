@@ -1,52 +1,152 @@
 [
   {
     "ModuleName": "Table/Author",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778053+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Author.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Category",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2777935+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Category.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/User",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.277813+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\User.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Cart",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778006+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Cart.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Book",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778151+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Book.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Comment",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778028+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Comment.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Order",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778173+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Order.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/OrderDetail",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778076+07:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\OrderDetail.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/View1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2777982+07:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\View1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/View2",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:18:59.2778107+07:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\View2.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
