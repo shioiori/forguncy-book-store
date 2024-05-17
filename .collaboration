@@ -277,7 +277,16 @@
   },
   {
     "ModuleName": "Pages/User",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:19:51.1471267+07:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\User"
+    ]
   },
   {
     "ModuleName": "PCPage/Book_InfoPage",
@@ -286,7 +295,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T13:40:30.5694864+07:00",
+    "LockDateTime": "2024-05-17T14:19:51.143785+07:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\User\\Book_InfoPage.json",
@@ -297,19 +306,61 @@
   },
   {
     "ModuleName": "PCPage/StartupPage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:19:51.1439305+07:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\User\\StartupPage.json",
+      "Pages\\User\\StartupPage.rd",
+      "Pages\\68fc72a6889b4cb082b17c9dc9e1e8d.json",
+      "Pages\\68fc72a6889b4cb082b17c9dc9e1e8d.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/CartPage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:19:51.1434458+07:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\User\\CartPage.json",
+      "Pages\\User\\CartPage.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/OrderHistory_Page",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:19:51.1438501+07:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\User\\OrderHistory_Page.json",
+      "Pages\\User\\OrderHistory_Page.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/OrderDetail_Page",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T14:19:51.1435292+07:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\User\\OrderDetail_Page.json",
+      "Pages\\User\\OrderDetail_Page.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/Default Master",
