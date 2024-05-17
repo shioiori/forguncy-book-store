@@ -296,5 +296,15 @@
   {
     "ModuleName": "PCPage/Category_Add",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Page1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T13:41:27.1258294+07:00",
+    "ModuleType": 1
   }
 ]
