@@ -1,0 +1,236 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 27.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      }
+    },
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 20
+  },
+  "Values": {
+    "2,2": "Category",
+    "5,1": "Name",
+    "7,15": "Save"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "Style6"
+      }
+    },
+    "1,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "Style7"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "Style5"
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "7,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "Category",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "UpdateBindingValues": [
+              {
+                "BindingInfo": {
+                  "TableName": "Category",
+                  "ColumnName": "Name",
+                  "GUID": "0c317eb9-a0be-422a-b44e-590c2eedacab"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Category_Add!G6"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "Save",
+        "TemplateKey": "Style8"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "TextIndent": 40
+      },
+      {
+        "Background": 1,
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Background": 1,
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 2,
+        "Foreground": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Open Sans",
+        "Accent 3 0",
+        "Bold",
+        "Background 1 0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "1,18": 2,
+      "2,1": 1,
+      "2,2": 3,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 2,
+      "2,8": 2,
+      "2,9": 2,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 2,
+      "3,1": 2,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "3,18": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "Spans": [
+    "1,18,3,1",
+    "5,1,1,4",
+    "5,6,1,13",
+    "7,15,1,4",
+    "2,2,1,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//oDjXUjtrZiWQFxxOjMCQm2e4KwaeOozZOFci6Q7FWnGoxkp3CQaKMDY1R7pUQZln9WYyfzQL83v36hAHuOT6sdvmCrr3TrinZTwhZ4P6+8XehcQ/UPdcSeTbUSFXf7Gu4hly5tfsRMa0PZfOY3x1hqP8pYn7vAaRrqVDuhO/jqcjLLzF/dkwvfYnlO6wBC+OfxFy0NPzxqRUMPQQXvvTDBi1K6Vsvf6Om5Zp3rkuvXwxDzoM3JhM9dSGToq7F0nJ+KJzywLyA9vHMaBWOo9uelgFveRSPTnyI2OdGtdH8ESS5/SmyeJ/JO3gNv+VczZf7Q+az3actUTv6oKE/UTZVEAxKJPhJAYxYgIKSgGD1WLTR5oZzh74YfDJ+gf+nsnNbjgzArAranXgfRUKnBa/A9UDCNfYaGCBzsCSgSae2azEVfKKWtKw/AWzoI7ooUTvKOKIo7/PSrTjiRmoxTTB840QXs/bmfFWwsVaCcrul/t8fj1DXlksD9lzcsef7DnJWfci4MlcLQcvbq3Kv+y/J/Y50+8o1Y3gD/J31HsvceXxfejb0E3wgwFxx/wl6Jc5iBoDelUmQ4edDLjB0bCi50gfjHfLiTbBD3sYq3AEWNl/LM2dtCY/zo8/cEwrUY7MYioUfJmaRtdqoQOwScxRJMxCvn/Q5rIc1s3qoYGQByp+fdHp88qdVWZYJnfOdIz1KTYrmBArheoM3FSXXTNuWOd6gv7cBhRtuyW/wJp/FnFGsCuDm9GXiG+g8XWeJpU9dxdX8PwZSenhwd6w4AE5qIsFd1lw4VqWRGzq0ya4/XwBB6hXlhPMBxO+P/cv3xV7/q5HUHhDNHt9my9SPB11KiFP6E8Sb0R+NG4IUenyRlj8ufNFq4aMynzcfcyoDScDLcBCOTgIZ8eDVdoiwghk/w==|920

@@ -1,152 +1,52 @@
 [
   {
     "ModuleName": "Table/Author",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.721621+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Author.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Category",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216288+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Category.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/User",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216327+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\User.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Cart",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216362+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Cart.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Book",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216403+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Book.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Comment",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216438+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Comment.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Order",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216474+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Order.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/OrderDetail",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216514+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\OrderDetail.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/View1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216558+07:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\View1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/View2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7216595+07:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\View2.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -259,17 +159,7 @@
   },
   {
     "ModuleName": "PCPage/Book_Detail Page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:18:43.1244386+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Publisher\\Book_Detail Page.json",
-      "Pages\\Publisher\\Book_Detail Page.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Book_List Page",
@@ -373,25 +263,7 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:23.7229178+07:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": [
-      "Upload\\4a273b68-42b3-41a4-8181-48bd72f8a19b_transport_car_construction_vehicle_truck_icon_260282.ico",
-      "Upload\\9da1eb3d-de4f-4acb-85c3-e580903add11_image_14.medium.png",
-      "Upload\\9da1eb3d-de4f-4acb-85c3-e580903add11_image_14.png",
-      "Upload\\9da1eb3d-de4f-4acb-85c3-e580903add11_image_14.small.png",
-      "Upload\\b65fd0ef-7269-416e-823e-c0f850967757_hp.jpg",
-      "Upload\\b65fd0ef-7269-416e-823e-c0f850967757_hp.medium.jpg",
-      "Upload\\b65fd0ef-7269-416e-823e-c0f850967757_hp.small.jpg",
-      "Upload\\f6d5117b-effb-4423-ad53-ea4962bae9e4_download20240101175339.medium.png",
-      "Upload\\f6d5117b-effb-4423-ad53-ea4962bae9e4_download20240101175339.png",
-      "Upload\\f6d5117b-effb-4423-ad53-ea4962bae9e4_download20240101175339.small.png"
-    ]
+    "ModuleType": 26
   },
   {
     "ModuleName": "PublishConfiguration",
@@ -407,22 +279,10 @@
   },
   {
     "ModuleName": "PCPage/Author_Add",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:19:41.1165943+07:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Category_Add",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:24:51.0774329+07:00",
     "ModuleType": 1
   }
 ]
