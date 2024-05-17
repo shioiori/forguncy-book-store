@@ -1,152 +1,52 @@
 [
   {
     "ModuleName": "Table/Author",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6993996+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Author.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Category",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6993888+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Category.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/User",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6994065+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\User.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Cart",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6993944+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Cart.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Book",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6994089+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Book.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Comment",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6993963+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Comment.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Order",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6994113+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Order.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/OrderDetail",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6994018+07:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\OrderDetail.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/View1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6993923+07:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\View1.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/View2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:53:05.6994044+07:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\View2.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -263,17 +163,7 @@
   },
   {
     "ModuleName": "PCPage/Book_List Page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T11:34:41.8893675+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Publisher\\Book_List Page.json",
-      "Pages\\Publisher\\Book_List Page.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/User",
