@@ -159,31 +159,11 @@
   },
   {
     "ModuleName": "PCPage/Book_Detail Page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T10:05:18.795547+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Publisher\\Book_Detail Page.json",
-      "Pages\\Publisher\\Book_Detail Page.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Book_List Page",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T09:53:58.4951123+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Publisher\\Book_List Page.json",
-      "Pages\\Publisher\\Book_List Page.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/User",

@@ -411,9 +411,12 @@
             ]
           }
         ],
+        "limit": 1,
         "accept": ".jpg, .jpeg, .png",
+        "listType": 2,
         "buttonText": "Click to upload",
-        "tipText": "Only jpg/png files can be uploaded"
+        "tipText": "Only jpg/png files can be uploaded",
+        "multiple": false
       }
     },
     "39,12": {
@@ -443,7 +446,7 @@
                     "UpdateType": "add"
                   }
                 ],
-                "ID": "7832f652-3b24-44dd-b638-2711f88292bc"
+                "ID": "3c6ca12d-13cf-4737-a4f8-cb4a84cc5849"
               },
               {
                 "Condition": {
@@ -464,7 +467,7 @@
                     "TableName": "Book"
                   }
                 ],
-                "ID": "7ae078c2-ce1d-4310-9790-c1fdf291ed42"
+                "ID": "3b44ac2d-0668-4425-87d5-5a06d951b465"
               }
             ]
           },
@@ -504,6 +507,9 @@
         "FontSize": 26.666666666666664,
         "FontWeight": 1,
         "Foreground": 2
+      },
+      {
+        "FontFamily": null
       },
       {
         "FontWeight": 1
@@ -576,50 +582,51 @@
       "3,15": 1,
       "3,16": 1,
       "3,17": 1,
-      "5,1": 3,
-      "8,1": 3,
-      "11,1": 3,
-      "14,1": 3,
-      "15,1": 4,
-      "24,1": 5,
-      "24,2": 5,
-      "24,3": 5,
-      "24,4": 5,
-      "24,5": 5,
-      "24,6": 5,
-      "24,7": 5,
-      "24,8": 5,
-      "24,9": 5,
-      "24,10": 5,
-      "24,11": 5,
-      "24,12": 5,
-      "24,13": 5,
-      "24,14": 5,
-      "24,15": 5,
-      "24,16": 5,
-      "24,17": 5,
-      "24,18": 5,
-      "25,1": 3,
-      "26,1": 3,
-      "26,2": 3,
-      "26,3": 3,
-      "26,4": 3,
-      "26,5": 3,
-      "26,6": 3,
-      "26,7": 6,
-      "26,8": 6,
-      "26,9": 6,
-      "26,10": 6,
-      "26,11": 6,
-      "26,12": 6,
-      "26,13": 6,
-      "26,14": 6,
-      "26,15": 6,
-      "26,16": 6,
-      "26,17": 6,
-      "26,18": 6,
-      "27,1": 7,
-      "29,1": 3
+      "4,1": 3,
+      "5,1": 4,
+      "8,1": 4,
+      "11,1": 4,
+      "14,1": 4,
+      "15,1": 5,
+      "24,1": 6,
+      "24,2": 6,
+      "24,3": 6,
+      "24,4": 6,
+      "24,5": 6,
+      "24,6": 6,
+      "24,7": 6,
+      "24,8": 6,
+      "24,9": 6,
+      "24,10": 6,
+      "24,11": 6,
+      "24,12": 6,
+      "24,13": 6,
+      "24,14": 6,
+      "24,15": 6,
+      "24,16": 6,
+      "24,17": 6,
+      "24,18": 6,
+      "25,1": 4,
+      "26,1": 4,
+      "26,2": 4,
+      "26,3": 4,
+      "26,4": 4,
+      "26,5": 4,
+      "26,6": 4,
+      "26,7": 7,
+      "26,8": 7,
+      "26,9": 7,
+      "26,10": 7,
+      "26,11": 7,
+      "26,12": 7,
+      "26,13": 7,
+      "26,14": 7,
+      "26,15": 7,
+      "26,16": 7,
+      "26,17": 7,
+      "26,18": 7,
+      "27,1": 8,
+      "29,1": 4
     },
     "SheetStyle": {
       "FontFamily": 7
@@ -669,4 +676,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//96yY9QrlK9Emvqajw0h+StNhvmuZlJ8aBn0nZeqKn1ps/qAiFx8Ljtm56ql1ZwqRxnnW16xAY9z770H2lz3nVy6yyHcfc0adRbbXIpfnAsqaikKZPxFxBkWqQVb3QuiZ5vrNM5dTOYYBxckackF903CL/ObebqWBJQXvYn0lfpCYz1hSxDaJv2M3+JB2nZZBHjrwhel4LjC7JXnRgvVM+AIxQRZChXWVhMmsIG/lpryiySb7fbb0uWuE1gNxHI6pVyi3stWLf1DspvRoK7lWpq9REHwohvJCJxADC/we0neHnsfm6/5Lqy0BYvVKtF7JBDHLnJmiZK4mT7vrGB3g6ZcnHXx2dyDcPxRV3OsfA+Lzl1BOnmdz32v3e11PnaB/6rUPXDKrYg+L2NjcIhdtn3F/przqzfHEh9oSdFshM6g3ASvnHQ8vZyvYwBzqwhObYbeJlw+ys1E8F05RKaA+Ui1FdnUtWPiFMoBYNrJaBFq3SAYw9ZzEPeu34RMZomKDLloSpXBt++8WtNaZd5Y/37OtTlyvPE6q56Z064cfz+JvxjNRHTGVOus3ajDJL7F7LI8Um4DAnum4MN5vwOaq3r1RKYB94VRv+Mbdzw0D7p9wvGEjObi9lg7xDosCTynlJ38YHoV8BxN4OoE3QEeWW4P/xQP2sQ7wb2rRNl4vDy5tnNRG2EHO9ReBE/kIsL2MSPBxs95MoQJRAabvdUh//qER/pV8pd9dyu/P3y+jXNwrZjxu1B2eWMOEW6NuUecG25+WjcmYrHvnW3q5HyNGIfB0ypENufnaQN2XPTZiOkv9/GsqHTBaRHfioYlivCEGwt0rvem6a0O/xOH6Oba4hPvoTeIwer1OOHY8il2bF/kv6O46uLy3IPRt6HcHWQ2NcSub85PI7faEY49oPefGpQ==|920
+}//QrF/NMGdWW8qWQbhHXQSDOQIlL1K7fRody7xZ1jPbG7h/0ecxDp+Ni5bUCG7VfPnL45Txo2G9KzCuvdbr+BLVPLyhIEeQiGPymZyOpgrgn/gUDxH5/STmGjqwsMJkAGAmEmlLD7tcZA1vEfKwZABDDH3QoqP37UWMJw0ElTb4dChfKiXnkS3+GzjyUKqY1y6t4d9IFz6lgIhL+Jw0CxGTHFWoLSaBAstop9P71N3B5v646rhQ9Q8lEQ1ij20yuhxKQNrt7jrGsQt0YXs/N0GEXjZUTOQ8boPQis3QOLm14BLhY/ULn7/FJbomW8sxsSUNmljzvxjKb6xIcLubHG3moZyfjW8ZxPYBD675/dtN9VjVCiI3O0BLXBpMyHMqRulyiKUtJ6gJJvWIeUeXjzKziyyasZ2NlXn28Yc3dbJxU/ox1FtJhzIRLPkCiVHnJ3PSrC7xsEJzpnEA6V9wKb4t0u7jyf3oQ3s3ssvmslAMvBOWSbQXHg5iF+JSL4hNh2pkMkHMPz/CTEvCRFyWX6iL6TmY3OYmF2pnSQhTyh5sFgsvXmRBWkOzOKplRyLNXMkPZ4HCmrkRJ4j3rteIVsVapZF1257j8GrPCTwavnxVYymQq2x9PP2YjohEVtO1CcmfHcl/lUW0pqNfdiclzX/rhRV4q9S402wAQ6zCN0vpy5cW2or/ZeknLTdYU1MvnHLQ1NqahdIwtdKXKi3vnf324zfaTRRuE5QVLQH/txzSlnPcI/Yywpivd7zwY4W7UdA57nuKs+3ZnJa/Avx1j/QQd87N5QAtQ2nr1FCgE6ck00F9hw5yr+E8+L+61aJMxIq5DIZdUedgnNs9qjfdZdu6j4+hXZXwTpsjMSAKprXWZCnxw3+JC/RFCBA9A7yO1ZFYhkJqRF+rUpWu/f6RLI1fA==|920
