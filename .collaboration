@@ -171,35 +171,11 @@
   },
   {
     "ModuleName": "PCPage/Book_InfoPage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T13:09:26.5495803+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\User\\Book_InfoPage.json",
-      "Pages\\User\\Book_InfoPage.rd",
-      "Pages\\2f8d944418624d329eb720aa0aa0a77.json",
-      "Pages\\2f8d944418624d329eb720aa0aa0a77.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/StartupPage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ClaraPhung",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-05-17T13:13:13.3036704+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\User\\StartupPage.json",
-      "Pages\\User\\StartupPage.rd",
-      "Pages\\68fc72a6889b4cb082b17c9dc9e1e8d.json",
-      "Pages\\68fc72a6889b4cb082b17c9dc9e1e8d.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/CartPage",
