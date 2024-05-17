@@ -163,7 +163,17 @@
   },
   {
     "ModuleName": "PCPage/Book_List Page",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T09:51:03.7427069+07:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Publisher\\Book_List Page.json",
+      "Pages\\Publisher\\Book_List Page.rd"
+    ]
   },
   {
     "ModuleName": "Pages/User",
@@ -199,7 +209,17 @@
   },
   {
     "ModuleName": "MasterPCPage/PublisherPage",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T09:51:03.743573+07:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\PublisherPage.json",
+      "MasterPages\\PublisherPage.rd"
+    ]
   },
   {
     "ModuleName": "PageReport/DailyRevenue",
@@ -207,7 +227,17 @@
   },
   {
     "ModuleName": "ApplicationSetting",
-    "ModuleType": 8
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-17T09:51:03.743577+07:00",
+    "ModuleType": 8,
+    "ToRemoveFiles": [
+      "ApplicationSettings.json",
+      "favicon.ico"
+    ]
   },
   {
     "ModuleName": "Theme",
