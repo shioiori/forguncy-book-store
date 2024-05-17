@@ -1,0 +1,7 @@
+[
+  {
+    "ConnectionString": "Data Source=HN-CLARA;Initial Catalog=NovelWebsiteDB;Integrated Security=True",
+    "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
+    "ID": "SQLServer"
+  }
+]

@@ -1,0 +1,373 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 30,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Count": 20,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "2,1": "Order History"
+  },
+  "AttachInfos": {
+    "5,1": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "Order",
+        "RowIndex": 5,
+        "ColumnIndex": 1,
+        "RowCount": 24,
+        "ColumnCount": 18,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "Order",
+            "ColumnName": "FGC_Creator",
+            "GUID": "ec587b84-d486-4c99-a185-7da912d8fd06"
+          },
+          "Value": "%CurrentUser.UserName%"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "Custom1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,1": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "Order",
+        "ColumnName": "ID",
+        "GUID": "b84a4dc1-9b3e-40c7-ab06-ae56bd28a148"
+      },
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "OrderDetail_Page"
+          }
+        ],
+        "Text": "",
+        "ClickMode": 1
+      }
+    },
+    "6,3": {
+      "NameUsedInJavaScript": "TotalPrice",
+      "BindingInfo": {
+        "TableName": "Order",
+        "ColumnName": "TotalPrice",
+        "GUID": "1a3bf39b-5b47-4f21-b6bd-7687cead802e"
+      }
+    },
+    "6,6": {
+      "NameUsedInJavaScript": "CreationDate",
+      "BindingInfo": {
+        "TableName": "Order",
+        "ColumnName": "FGC_CreateDate",
+        "GUID": "ae2267aa-3b6b-4450-bf39-86480636e429"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 26.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 0,
+        "Formatter": 2
+      },
+      {
+        "Background": 3
+      },
+      {
+        "Background": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 3,
+        "FontFamily": 4,
+        "FontSize": 16.0,
+        "FontWeight": 1
+      },
+      {
+        "Foreground": 5,
+        "Underline": false
+      },
+      {
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 4
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 3 0",
+        "Bold",
+        "[AUTO]General",
+        "Background 1 -5",
+        "Open Sans",
+        "Text 2 40",
+        "#,##0;[Red]#,##0"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "2,1": 1,
+      "2,18": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "5,1": 2,
+      "5,3": 3,
+      "5,4": 4,
+      "5,5": 4,
+      "5,6": 5,
+      "6,1": 6,
+      "6,3": 7,
+      "6,6": 8
+    },
+    "RowStyles": {
+      "5": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "Spans": [
+    "7,1,22,18",
+    "6,1,1,2",
+    "2,1,1,16",
+    "6,3,1,3",
+    "6,6,1,4",
+    "5,1,1,2",
+    "5,3,1,3",
+    "5,6,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "UserPage",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PageResponsiveMode": 2
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//kamV/JMIC0XwAeWPMrsvVx4Hew6Ijhjf0pC6a6/20E8iwsSRBX8waaElUEWs5mJe3h0QLmFwdu2IeU5mxhv9ySzUKWxiBcgVsTodCpkmQ9LOTBxmEW10mYbA6toTylkThJJZ9QRctDxoN435mPEES2CxhDSu9VtIiLFBRawO/LcwdRZNod/xN3FFW9o85vip4Vqs4pxBrIndQcYrZD1ImBbEHDs9pGdIL0OnFnYaBjbcILFvPnALW1Oj/pXTuBwark9BETtwb36lufpOTcijq5lSCAL+v9VWEmIRDwEbRwtEoIymnopyE6BvoD7g85OmLbqbp6909jF5fAICXCcEymf9kf0n0bSTtEY/uwGoNtZRaotTaEp6NdgkBepDtZs3HdtISgkOFAc9k1n0Oetczwk3mSSsLZRQKxgGpixNDpHMHHAfH2ZwdMFntpHR+YeM47Ghki67ZS+t0aCORi4JOarx3BTA282Ld8cXb9yJFVJHypMyiGtIhq27X5dVPRtCOyDCtxLq5c4cm/LJ5bm15XBK7JZ+dVFMmLnT7S/Heh7vbqr7rJBwZsx8AXDt6qAWA1BgYRstEaKLUdEg1uJcQBkUXK5jZktJBgERQVUUvnpcMubjoyfx82QIvS/F9BDf8/9a39FdFA7ILDVg3t/jIdoNnowj0xpwUqbWH05QlTmAn/khpNbA3/UzxhbF6bCxNEAUvvh/MtldEjj9p5f1ZgCnzO21YIErUpJI85h8PTUOu07DauyAh1AC+g3mwHYhSWvz5Xz7DRaw0onVtbkiBOoRZyBTo+22gViOfqkJgPHSstGPj65TFA5+yiLN4PqYyn0kNonTV2SMNyYk3Hpe/P8gFuxn9xht7JzNfLyHtxnA/c8e6E2bUQq4V8B6ONAd3fpRG/TwU4NQv2Y7ca6O4A==|920

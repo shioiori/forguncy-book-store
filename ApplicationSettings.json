@@ -1,0 +1,32 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "3lo^Ppc1S~zq"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 20091,
+  "UserServicePort": 27450,
+  "StartPage": "Book_List Page",
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "en",
+        "Description": "Built-in English language, cannot be deleted",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
+}

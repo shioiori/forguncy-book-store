@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Custom1",
+    "Group": "Custom",
+    "ColumnHeaderBack": "Background 1 0",
+    "ColumnHeaderFore": "Accent 3 0",
+    "EvenRowBack": "Accent 3 80",
+    "EvenRowFore": "Accent 3 0",
+    "OddRowBack": "Background 1 0",
+    "OddRowFore": "Accent 3 0",
+    "ColumnHeaderHighlightBack": "Accent 3 32",
+    "ColumnHeaderHighlightFore": "Background 1",
+    "ColumnHeaderHoverBack": "Accent 3 48",
+    "ColumnHeaderHoverFore": "Background 1",
+    "ColumnHeaderSelectBack": "Accent 3 40",
+    "ColumnHeaderSelectFore": "Background 1",
+    "TotalRowFore": "Accent 3 0",
+    "SelectBorder": "Accent 3 -20",
+    "GrayAreaFore": "Text 1 50",
+    "DirtyCellColor": "Accent 1 60"
+  }
+]

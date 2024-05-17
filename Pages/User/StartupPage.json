@@ -1,0 +1,525 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
+    },
+    "Count": 50
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      }
+    },
+    "Count": 30,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "2,1": "Home"
+  },
+  "AttachInfos": {
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "ID",
+        "GUID": "40eb6d22-8aa9-478e-acbd-28f087320d4f"
+      },
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "68fc72a6889b4cb082b17c9dc9e1e8d",
+        "Command": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+              "PageName": "Book_InfoPage",
+              "LoadBindingDataOption": 1
+            }
+          ],
+          "ParamProperties": {
+            "ID": "ID",
+            "CreatedBy": "CreatedBy",
+            "CreationDate": "CreationDate",
+            "LastModifiedBy": "LastModifiedBy",
+            "LastModificationDate": "LastModificationDate",
+            "Name": "Name",
+            "CategoryID": "CategoryID",
+            "AuthorID": "AuthorID",
+            "Description": "Description",
+            "Cover": "Cover",
+            "Price": "Price",
+            "ID_1": "ID_1",
+            "FGC_Creator_1": "FGC_Creator_1",
+            "FGC_CreateDate_1": "FGC_CreateDate_1",
+            "FGC_LastModifier_1": "FGC_LastModifier_1",
+            "FGC_LastModifyDate_1": "FGC_LastModifyDate_1",
+            "FGC_Rowversion_1": "FGC_Rowversion_1",
+            "FGC_UpdateHelp_1": "FGC_UpdateHelp_1",
+            "Name_1": "Name_1",
+            "ID_2": "ID_2",
+            "FGC_Creator_2": "FGC_Creator_2",
+            "FGC_CreateDate_2": "FGC_CreateDate_2",
+            "FGC_LastModifier_2": "FGC_LastModifier_2",
+            "FGC_LastModifyDate_2": "FGC_LastModifyDate_2",
+            "FGC_Rowversion_2": "FGC_Rowversion_2",
+            "FGC_UpdateHelp_2": "FGC_UpdateHelp_2",
+            "Name_2": "Name_2"
+          }
+        },
+        "DataSourceType": 1,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "View2",
+          "BindingInfos": [
+            {
+              "GUID": "d9930583-c0f8-4df1-a042-97ff0d8456a6",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "ID",
+                "GUID": "205a8151-4db8-4907-89d3-1ee6eefca90e"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "GUID": "d4e8ad67-eab7-4a23-9f24-565e2f761cd0",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_Creator",
+                "GUID": "ccd7520d-db6b-4de8-bc40-49acfbadaa8f"
+              },
+              "ColumnName": "CreatedBy"
+            },
+            {
+              "GUID": "0fafdb70-0e86-4fd1-baed-e709a351fe78",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_CreateDate",
+                "GUID": "be6ca1d6-26fb-4bd6-8426-81d6b36bc1c5"
+              },
+              "ColumnName": "CreationDate"
+            },
+            {
+              "GUID": "3415b46e-f5ec-4670-a0aa-ba0522ca6300",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_LastModifier",
+                "GUID": "59d1b50e-9211-43d7-a824-006d620cd2ab"
+              },
+              "ColumnName": "LastModifiedBy"
+            },
+            {
+              "GUID": "1a3e2e82-ed35-4e86-8061-91f964beed61",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_LastModifyDate",
+                "GUID": "1601b498-6247-4ee3-a581-ffc606de64c1"
+              },
+              "ColumnName": "LastModificationDate"
+            },
+            {
+              "GUID": "350f446f-2939-4bf7-8ce1-0bee1cb0d4eb",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Name",
+                "GUID": "5411e05d-169a-41d2-936b-77a9499f516a"
+              },
+              "ColumnName": "Name"
+            },
+            {
+              "GUID": "9a8d4b59-48e3-45b8-b560-efdfb5436c99",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "CategoryID",
+                "GUID": "cd7fd169-05ef-4ef9-beee-2b82e5b28c1c"
+              },
+              "ColumnName": "CategoryID"
+            },
+            {
+              "GUID": "8c306ee1-c036-4510-b373-1008e872b1fb",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "AuthorID",
+                "GUID": "c3e9f63b-c956-460f-8995-3b8c26799240"
+              },
+              "ColumnName": "AuthorID"
+            },
+            {
+              "GUID": "d82c5e3d-43b9-462b-926a-f6f619651a4e",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Description",
+                "GUID": "fbd4d2a3-f81a-4851-b09b-cbb2d0c10b61"
+              },
+              "ColumnName": "Description"
+            },
+            {
+              "GUID": "7dc8b52b-9afa-4d5f-b73f-86a4917631ce",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Cover",
+                "GUID": "b8e04c70-630b-4302-a0eb-9ed3e575e1a2"
+              },
+              "ColumnName": "Cover"
+            },
+            {
+              "GUID": "5877c10b-a0af-43b3-a63d-d2bfa2b599ac",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Price",
+                "GUID": "1b1a6fee-d1ba-4567-b13d-d183218780db"
+              },
+              "ColumnName": "Price"
+            },
+            {
+              "GUID": "bb83646e-d909-4ebc-99d5-0e86904dd875",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "IsSold",
+                "GUID": "cd8e6022-8129-4e3b-af95-14aead7ec6af"
+              },
+              "ColumnName": "IsSold"
+            },
+            {
+              "GUID": "e535e287-4068-4d8b-95d7-2c4b9f4891be",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "ID:1",
+                "GUID": "ba47177d-f7f3-4404-984c-83882d2d1b4d"
+              },
+              "ColumnName": "ID_1"
+            },
+            {
+              "GUID": "8e2032d6-d86d-42c9-8ade-f1299ea830ef",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_Creator:1",
+                "GUID": "673e26cf-2dab-4e14-8e8f-237456df48c2"
+              },
+              "ColumnName": "FGC_Creator_1"
+            },
+            {
+              "GUID": "fb3fcca9-392a-40c7-a776-98c4e9d8472b",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_CreateDate:1",
+                "GUID": "af1bc3bb-8afd-4ecd-949b-35b9242ff62a"
+              },
+              "ColumnName": "FGC_CreateDate_1"
+            },
+            {
+              "GUID": "b39b5c80-6b71-46c3-98c8-3a2e92fe60e8",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_LastModifier:1",
+                "GUID": "3c229261-e7a6-46f2-be53-8456446c1eb1"
+              },
+              "ColumnName": "FGC_LastModifier_1"
+            },
+            {
+              "GUID": "e3114e4a-14b2-4ff4-9477-3f2dc040c318",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_LastModifyDate:1",
+                "GUID": "fb617522-878b-4127-b785-a35dd7f04e00"
+              },
+              "ColumnName": "FGC_LastModifyDate_1"
+            },
+            {
+              "GUID": "766bc793-90f0-4378-adf3-8fce8efbbb95",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_Rowversion:1",
+                "GUID": "3ff1c73c-a4ff-462f-a6c3-9effce5fcdd3"
+              },
+              "ColumnName": "FGC_Rowversion_1"
+            },
+            {
+              "GUID": "b5e5be68-9401-407f-ae3c-0e9de48694ed",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_UpdateHelp:1",
+                "GUID": "feadc64f-f8a1-4e8b-b127-55dce8f66c8c"
+              },
+              "ColumnName": "FGC_UpdateHelp_1"
+            },
+            {
+              "GUID": "3455a941-acab-413e-ae4d-5498501c8bd6",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Name:1",
+                "GUID": "e45f491f-babe-4218-83b1-4ef6720fde27"
+              },
+              "ColumnName": "Name_1"
+            },
+            {
+              "GUID": "a0d8aab8-7c4c-47e6-97dd-cae8250f9ba4",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "ID:2",
+                "GUID": "14b02be0-a718-4ca1-bc62-dae4eb35eb31"
+              },
+              "ColumnName": "ID_2"
+            },
+            {
+              "GUID": "b09959b3-4390-434b-ba29-ead209865464",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_Creator:2",
+                "GUID": "dc21067d-5f8d-44b0-ad2c-4edd38bf2558"
+              },
+              "ColumnName": "FGC_Creator_2"
+            },
+            {
+              "GUID": "46a748bc-b439-4386-8ccd-7595a3709e65",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_CreateDate:2",
+                "GUID": "c88d3eed-9a78-4dce-9b20-9418dffc1f87"
+              },
+              "ColumnName": "FGC_CreateDate_2"
+            },
+            {
+              "GUID": "2a7d14cd-7172-4fe6-af45-9eb86713130a",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_LastModifier:2",
+                "GUID": "8774756c-ef0c-4665-800f-9280e535e3bb"
+              },
+              "ColumnName": "FGC_LastModifier_2"
+            },
+            {
+              "GUID": "d3077f1d-4ef7-48da-9cdc-5d25684a384d",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_LastModifyDate:2",
+                "GUID": "470caf15-d207-4d87-b73c-3d1f8e73b804"
+              },
+              "ColumnName": "FGC_LastModifyDate_2"
+            },
+            {
+              "GUID": "272d5d59-57aa-4f32-950c-8a7941322832",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_Rowversion:2",
+                "GUID": "90f7c1f8-e869-4bf5-967d-1698629f9dcc"
+              },
+              "ColumnName": "FGC_Rowversion_2"
+            },
+            {
+              "GUID": "12a7cbdb-f770-4879-97da-5cd528cd3146",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "FGC_UpdateHelp:2",
+                "GUID": "7522f717-301b-4d7d-aea8-44a2baf8f74a"
+              },
+              "ColumnName": "FGC_UpdateHelp_2"
+            },
+            {
+              "GUID": "e91632cc-e63f-4eec-9bb7-99bcc6c53d94",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Name:2",
+                "GUID": "b93c3b29-941a-43da-b992-c5773e234050"
+              },
+              "ColumnName": "Name_2"
+            }
+          ],
+          "IsListviewDataSource": true,
+          "CustomColumns": []
+        },
+        "DataSourceListviewName": "RepeaterListview1",
+        "IsLoadOnDemand": true,
+        "LoadOnDemandCount": 2,
+        "DisplayMode": 2,
+        "OverflowMode": 0,
+        "TemplateKey": "_RS_Clickable",
+        "IsSingleSelection": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 26.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 0,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontSize": 16.0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 3 0",
+        "Bold",
+        "[AUTO]General",
+        "Segoe UI",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "1,24": 0,
+      "1,25": 0,
+      "1,26": 0,
+      "1,27": 0,
+      "1,28": 0,
+      "2,1": 1,
+      "2,28": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "3,24": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "4,3": 2,
+      "6,0": 3,
+      "7,0": 3,
+      "8,0": 3,
+      "9,0": 3,
+      "10,0": 3,
+      "11,0": 3,
+      "12,0": 3,
+      "13,0": 3,
+      "14,0": 3,
+      "15,0": 3,
+      "16,0": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "2,1,1,26",
+    "4,3,45,25"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "UserPage",
+    "PageOverflowMode": 1,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "View2"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//K5ZXmn/XB8LZXldUn1TClotgbACqVgBdX2PCozH08lzacPx+mOQBmcYvRIxKHXiRZTIV64cwJxyNUUj5Sr0O9npXDavN8vvXYaImrzLuoJCNt69eR+LUy3rDxgGxUMFxCN83edlqWnSKSHtaFA9fdTNXEQRkB+boUVkdlmRMInRUiNfZUO6I2oWPhqMQXZTGgwR0qeqemSpCOn8NZ8GqTUagKKT+FzysAiqHDWmE9aAaQP+OUj41g/+HD+pqLi3gUq4l3s9e9/80/eFjlRei2hrZT7AlZVzYfTrLLAiJpxZJtTqm2vDf5oMZWGXYHep8ru1G8FwlDvkfx5zlTkbpY/eWz5PxpLPgC6OaLTKeNCuz9sa2p9OLguoZxzd4UnH+08UIbtZcHHul81J3w6lap/jh1oSfwpZYPujpW8DpfCaKvyLl7tfW37BtU9EqNhQpJKVm+iM7GfTEmsqNDuZuuNcbuENtVa0L5oGCZYnxpbCtBwnmmFLw3/0ZOOTz/5vHSr6UNZwgK+5moRZXnD7gC9h3vT/O+YHFbwJpFYnCs1t7fcX4opln6BgrPWoxvA/gfreodHqmiD3nApkOaR8Y5XT70hCW2h0kTz6deLjHeCz68Dya+Q2m9cJIEzsCAvaKbelx4RRtf/+AVo5QscbQP9NxH+3Zmt/WpIfRo3nQ/S7F4UHkF+ED19qdqhReCeLzdkkfWjVJDMCKiiSvGIB4zh1OEw0d/HcpYPuMw8Pv+ZgbNRt3xY/6UrWFAYDfOWrpAPkWg4qgratE6oXoPd2TsuDMrYnGnNAFnGSJ2HCTqD94rrLJhO8L+IRcVDOECokWdv/LCOUi43BJ1rpusoTJ8avt+RfpSocBhDXYfn8crXy1/ATFDpctHLsU1R82JJ8hDEOUIKsVmayejtXMA1sliw==|920

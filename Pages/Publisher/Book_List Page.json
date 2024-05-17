@@ -1,0 +1,890 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 37.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 44.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 32,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 38.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 30,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "1,2": "Your Upload",
+    "7,25": "Add record",
+    "22,22": "`"
+  },
+  "AttachInfos": {
+    "7,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "Book_Detail Page",
+            "PassValues": [
+              {
+                "Source": "Add",
+                "TargetCell": {
+                  "SerializeProperty": "='Book_Detail Page'!M40"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Add record",
+        "TemplateKey": "Style8"
+      }
+    },
+    "9,1": {
+      "CellType": {
+        "$type": "ElementUI.TableCellType, ElementUI",
+        "ElTableName": "EL Table 1",
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "View2",
+          "BindingInfos": [
+            {
+              "GUID": "84bed332-854f-474f-a41e-d66ec3d98302",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "ID",
+                "GUID": "89ea37ba-d885-48c1-8dbb-a178b7a8dffe"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "GUID": "694c9082-9872-413d-9134-4cffe087f13c",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Name",
+                "GUID": "a9040989-1b8d-4cca-9607-3adef004487c"
+              },
+              "ColumnName": "Name"
+            },
+            {
+              "GUID": "6d041ecc-d288-4456-aeb7-a059ba65df8e",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Name:1",
+                "GUID": "2e52c664-02f1-411a-9f5f-aaf478a95f5e"
+              },
+              "ColumnName": "Author"
+            },
+            {
+              "GUID": "782b12e4-9d86-4a67-83b9-7acae64a1a91",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Name:2",
+                "GUID": "cea3fac1-c369-4b83-bee2-ab979dda7954"
+              },
+              "ColumnName": "Category"
+            },
+            {
+              "GUID": "13bb17a7-c84e-48c9-ae69-6493f00049df",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Price",
+                "GUID": "861a6abd-67f0-4c76-b8a9-106e1672afa8"
+              },
+              "ColumnName": "Price"
+            },
+            {
+              "GUID": "ad206052-063a-4c0c-9b4c-9d1c29e49c66",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "IsSold",
+                "GUID": "f7ea8cce-2f33-42d5-a720-ceb9d0bcf358"
+              },
+              "ColumnName": "IsSold"
+            },
+            {
+              "GUID": "b627ce12-c3ee-44cb-93a4-b5bd230e4fe4",
+              "BindingInfo": {
+                "TableName": "View2",
+                "ColumnName": "Description",
+                "GUID": "d3f79c2c-0261-48e4-b46d-9f466136f16a"
+              },
+              "ColumnName": "Description"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "columns": [
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "ID",
+            "label": "ID",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "34cef51f-de51-4077-bee6-5f1e57a19b95"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "CreatedBy",
+            "label": "CreatedBy",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "aaf9746a-6237-4f3b-9bc2-6f4221132302"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "CreationDate",
+            "label": "CreationDate",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "848a6307-a216-46a9-adbc-b5423cf0fefa"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "LastModifiedBy",
+            "label": "LastModifiedBy",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "0af84129-aa40-4415-b1c8-c54b7e489a59"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "LastModificationDate",
+            "label": "LastModificationDate",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "34925938-e47b-4b3d-a011-46ff66904a9d"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "Name",
+            "label": "Name",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "6aa99f85-96cf-4225-ae53-d5e56c2ca3e0"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "CategoryID",
+            "label": "CategoryID",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "44f82921-f32f-476a-a7c3-6c6a64e11a43"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "AuthorID",
+            "label": "AuthorID",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "5ec95326-b7b3-42ad-ac06-510ce2dea678"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "Description",
+            "label": "Description",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "94149d95-b9df-4564-a7fa-15a018e33c91"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "Cover",
+            "label": "Cover",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "9dd4e9d2-cf85-4ab2-823d-ef2abe7b4557"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "Price",
+            "label": "Price",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "dfe7f2d3-b8bf-410f-afb7-fe1a3b0992b5"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "IsSold",
+            "label": "IsSold",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "71445b78-dae8-4e54-b1fb-91e4b4550307"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "ID_1",
+            "label": "ID_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "4a5e6f9b-4302-4ada-bd1c-fdfc469e440e"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_Creator_1",
+            "label": "FGC_Creator_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "ba448d82-3fb6-4a38-8a40-4062550a3402"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_CreateDate_1",
+            "label": "FGC_CreateDate_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "53b7531a-2168-449d-bf53-653815f688de"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_LastModifier_1",
+            "label": "FGC_LastModifier_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "ac3ff342-ab4a-475b-90ba-486485e24002"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_LastModifyDate_1",
+            "label": "FGC_LastModifyDate_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "759c8edd-036c-44bd-b2d4-48a277471048"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_Rowversion_1",
+            "label": "FGC_Rowversion_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "700307b6-21a2-4681-8cb4-057823ed47ba"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_UpdateHelp_1",
+            "label": "FGC_UpdateHelp_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "7856effe-2914-44ce-896b-0df260dbef2f"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "Name_1",
+            "label": "Name_1",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "c64904f6-f9a3-436c-bc39-e1288828fc03"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "ID_2",
+            "label": "ID_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "655339e1-7100-44a8-8d6a-52500ff09ed9"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_Creator_2",
+            "label": "FGC_Creator_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "f66525d0-6cf2-4055-8001-8fb5277060f5"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_CreateDate_2",
+            "label": "FGC_CreateDate_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "c8d9dcbd-628b-4a49-815b-fe50404e8113"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_LastModifier_2",
+            "label": "FGC_LastModifier_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "4c21e1d9-8764-4750-8d95-77b58a16a1d7"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_LastModifyDate_2",
+            "label": "FGC_LastModifyDate_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "4c1a64c0-dbd9-485b-a6b8-8dbc30ccd4bd"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_Rowversion_2",
+            "label": "FGC_Rowversion_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "8e857de7-e644-4168-9a25-c39c2f660514"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "FGC_UpdateHelp_2",
+            "label": "FGC_UpdateHelp_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "98303ab9-49e6-4f6d-ae61-d38bffabe25d"
+          },
+          {
+            "$type": "ElementUI.ColumnSetting, ElementUI",
+            "dataColumnName": "Name_2",
+            "label": "Name_2",
+            "align": "left",
+            "headerAlign": "center",
+            "key": "2eef433c-c12d-4561-8658-f1f82fa51fb8"
+          }
+        ],
+        "actionButtons": [
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "Edit",
+            "shape": "default"
+          },
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "Delete",
+            "styleType": "Accent 5",
+            "shape": "default"
+          }
+        ],
+        "sumText": "Summary",
+        "size": "default"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": null,
+        "FontSize": -1.0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 32.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Foreground": 4
+      },
+      {
+        "Foreground": 2
+      },
+      {
+        "FontSize": 14.666666666666666
+      },
+      {
+        "HorizontalAlignment": 5
+      },
+      {
+        "Background": null
+      },
+      {
+        "Background": 6
+      },
+      {
+        "FontSize": 17.333333333333332
+      },
+      {
+        "FontWeight": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Open Sans",
+        "Bold",
+        "Accent 3 0",
+        "Left",
+        "Background 1 0",
+        "Right",
+        "Background 1 -5"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,28": 0,
+      "2,1": 0,
+      "2,28": 0,
+      "3,1": 0,
+      "3,28": 0,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "4,13": 2,
+      "4,14": 2,
+      "4,15": 2,
+      "4,16": 2,
+      "4,17": 2,
+      "4,18": 2,
+      "4,19": 2,
+      "4,20": 2,
+      "4,21": 2,
+      "4,22": 3,
+      "4,23": 3,
+      "4,24": 3,
+      "4,25": 3,
+      "4,26": 3,
+      "4,27": 3,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 2,
+      "5,10": 2,
+      "5,11": 2,
+      "5,12": 2,
+      "5,13": 2,
+      "5,14": 2,
+      "5,15": 2,
+      "5,16": 2,
+      "5,17": 2,
+      "5,18": 2,
+      "5,19": 2,
+      "5,20": 2,
+      "5,21": 2,
+      "5,22": 3,
+      "5,23": 3,
+      "5,24": 3,
+      "5,25": 3,
+      "5,26": 3,
+      "5,27": 3,
+      "7,0": 4,
+      "7,1": 4,
+      "7,2": 4,
+      "7,3": 0,
+      "7,4": 0,
+      "7,5": 0,
+      "7,6": 0,
+      "7,7": 0,
+      "7,8": 0,
+      "7,9": 0,
+      "7,10": 4,
+      "7,11": 4,
+      "7,12": 4,
+      "7,13": 4,
+      "7,14": 4,
+      "7,15": 4,
+      "7,16": 4,
+      "7,17": 4,
+      "7,18": 4,
+      "7,19": 4,
+      "7,20": 4,
+      "7,21": 4,
+      "7,22": 4,
+      "7,23": 4,
+      "7,24": 4,
+      "7,25": 4,
+      "8,0": 4,
+      "8,1": 4,
+      "8,2": 4,
+      "8,3": 4,
+      "8,4": 4,
+      "8,5": 4,
+      "8,6": 4,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 4,
+      "8,23": 4,
+      "8,24": 4,
+      "8,25": 4,
+      "8,26": 4,
+      "8,27": 4,
+      "8,28": 4,
+      "10,0": 4,
+      "11,0": 4,
+      "12,0": 4,
+      "13,0": 4,
+      "14,0": 4,
+      "15,0": 4,
+      "16,0": 4,
+      "17,0": 4,
+      "18,0": 4,
+      "19,0": 4,
+      "20,0": 4,
+      "21,15": 5
+    },
+    "RowStyles": {
+      "4": 6,
+      "5": 7,
+      "9": 8,
+      "17": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 13.333333333333332
+    }
+  },
+  "Spans": [
+    "7,25,1,4",
+    "21,15,1,14",
+    "1,2,3,26",
+    "9,1,12,28"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "PublisherPage",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                "currentUserProperty": {
+                  "UserProperty": "Role",
+                  "PropertyType": 3
+                }
+              },
+              "value": "User"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "StartupPage"
+              }
+            ],
+            "ID": "f44ade38-806c-42dd-9e67-c60e56386de8"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "Book",
+    "PageResponsiveMode": 2
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Uk7tgVnDiDlutW3xmLhr7ygSdOOTF0spP7I3ApR8bGKeFm8UfK1qrsmQnC0TqccI16sFu8mEvNS7jLqE6ZnHwzK9NMuUXKrIJxeS4O6BFmbANG+y0Nv8kx52xyAPnfxmQQrDXFmD/e709P6nZlWmoOVLvZplxQEpBUGR8VDH5sCEA3S6i9Jbfg/+jXO4pN0fuXluqJPCx7xlr9pxXItg+T1GE22Hq8A0oC9w2f0ydnzUC6dFff2IPY0jBJf7mmaE9FfGsQ3KYKxfkz72+RCZ+aPwH653egjaesOc2gtR7bCwMVxd2xM0oHvFqm5uiRfMUjrr6PULCk97K+Wc8FGsL4I8d1D58Ru7s7qV6/c7uJs7f6xy9w9AIYSDrNjz1DJZcvrILeSUAJmiTg2c8qiZiJy+P0ghfjKDhXQdzu3C6inJAcLvMBCsc6iYeW/ebSkcTQPVTnO8RD41hVrzBlll3uoeGOqGR32+DEW3DNmAEaBxxZTRTnMEaU6JJJypO8bmxM+SIYJdvqx3w2KdbhO838CrlWxBYjestcWEezbozQKK53ONRg/Xj17OXUmk0kpWe8ywhf6Mw4w/d5Y9o7oI5egJIrkn6vllHJma2hOKZ95nBlZLcWGyyg0n9jqv0LrqJ3O9qz0Bkg3/qdIEFpJUXPYBFCcRQdmLMdWUpW5nER735woOuYbkm8CaFmcSvR+2fo8yVJ54pa1tCIZECNowPDK58oUmxV5JD4zDZaY4/0dEuTORSHPQ0Rs+sbjqNxGZtlbN9rx7jaiyiPTWQfr8dz4z/IQTaRabXUwmMDXXoUzaBbxfHlKaHdXBMdtnpsCmpf7ZHGpXiHVQ6NBvhXlAHoIKeqkuDKxOaXlMbkBMKiWs7ls3ltpg3IQ9Fjx25tp6lDtUJGN6SAHW1+1ryc4LLw==|920

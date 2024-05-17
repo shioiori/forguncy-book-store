@@ -1,0 +1,951 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      4
+    ],
+    "Count": 50,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 68.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "2,1": "Book info",
+    "4,1": "ID",
+    "5,1": "Name",
+    "6,1": "Author",
+    "7,1": "Category",
+    "8,1": "Price",
+    "9,1": "Quantity",
+    "9,5": 1,
+    "9,10": "Add to cart",
+    "10,1": "Description",
+    "26,18": "Rate ",
+    "28,21": "Submit",
+    "30,1": "Comment"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Name",
+        "GUID": "417af593-4979-4694-85ae-26940b52fb1a"
+      }
+    },
+    "4,5": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "ID",
+        "GUID": "8cf5db14-07bc-469a-8856-7282ded833b1"
+      }
+    },
+    "4,15": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Cover",
+        "GUID": "470a2582-594f-4228-8ac3-92b3c1561b17",
+        "IsImagePath": true
+      },
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_Style1",
+        "ImageSizeMode": 2
+      }
+    },
+    "5,5": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Name",
+        "GUID": "e9ffc646-3752-4367-b3be-a05ca83bcc05"
+      }
+    },
+    "6,5": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Name:1",
+        "GUID": "b5a8aef3-e36f-4ac7-bc6c-7a40a3218664"
+      }
+    },
+    "7,5": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Name:2",
+        "GUID": "1567e8e2-ec80-4a01-abdc-90f2a8d59909"
+      }
+    },
+    "8,5": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Price",
+        "GUID": "573f7673-fc35-4a49-863c-9928493584e7"
+      }
+    },
+    "9,5": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "SpinButtonvisibility": 0,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": 1
+      }
+    },
+    "9,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=Book_InfoPage!F10"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 5
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "Quantity can't be less than or equal to 0!"
+                  },
+                  {
+                    "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                  }
+                ],
+                "ID": "cedee023-b541-46b9-8ad3-2cafa0fa701b"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "CurrentBook",
+            "TableValue": {
+              "TableName": "Cart",
+              "TableValueType": 1,
+              "BindingInfos": [
+                {
+                  "GUID": "f5e3662a-a018-4f46-9454-082ae6899235",
+                  "BindingInfo": {
+                    "TableName": "Cart",
+                    "ColumnName": "Quantity",
+                    "GUID": "b33bd272-2626-4479-9f01-d5c070ac5b60"
+                  },
+                  "ColumnName": "Quantity"
+                },
+                {
+                  "GUID": "9d91230d-8200-4ecc-b490-a4b1115116a2",
+                  "BindingInfo": {
+                    "TableName": "Cart",
+                    "ColumnName": "BookID",
+                    "GUID": "08393214-00d6-4d0b-a652-e2f48256adc3"
+                  },
+                  "ColumnName": "BookID"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "SubConditions": [
+                  {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "Cart",
+                      "ColumnName": "BookID",
+                      "GUID": "35d9c8e5-3b31-4f4a-881e-60d43fa6bbfe"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=Book_InfoPage!F5"
+                    }
+                  },
+                  {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "Cart",
+                      "ColumnName": "FGC_Creator",
+                      "GUID": "2d41d89d-7197-4d3b-ac5f-61861842b761"
+                    },
+                    "Value": "%CurrentUser%"
+                  }
+                ]
+              },
+              "NullFormulaValueQueryPolicy": 0
+            },
+            "ID": "d25c0c21907e48fd9f68ab2fbc87fd55"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=CurrentBook"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "Cart",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "Cart",
+                          "ColumnName": "BookID",
+                          "GUID": "76a05c08-eec3-4cf8-bd43-76fbd3efde55"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Book_InfoPage!F5"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "Cart",
+                          "ColumnName": "Quantity",
+                          "GUID": "f26bce00-316b-4e89-ada6-baefa0e187f3"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Book_InfoPage!F10"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "Cart",
+                          "ColumnName": "UnitPrice",
+                          "GUID": "46bf128a-fcc3-4902-be77-d409daa1f782"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Book_InfoPage!F9"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "f3e49cb3-6388-4159-b694-bc3b08546d01"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "Cart",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "Cart",
+                            "ColumnName": "BookID",
+                            "GUID": "ca13e11c-c6ef-4b4f-97b6-701c32fc7323"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Book_InfoPage!CurrentBook.BookID"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "Cart",
+                            "ColumnName": "FGC_Creator",
+                            "GUID": "81bdd70d-44f4-4687-9b1a-ba7cca1e6010"
+                          },
+                          "Value": "%CurrentUser%"
+                        }
+                      ]
+                    },
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "Cart",
+                          "ColumnName": "BookID",
+                          "GUID": "f73f0737-3bb3-4c3f-89d1-9e4a50b90193"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Book_InfoPage!F5"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "Cart",
+                          "ColumnName": "Quantity",
+                          "GUID": "1b9b7af8-f4df-46e3-9d7d-2f7668906f8a"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Book_InfoPage!F10+Book_InfoPage!CurrentBook.Quantity"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "Cart",
+                          "ColumnName": "UnitPrice",
+                          "GUID": "37de66a6-0794-41b3-90c6-9a8aac54af7f"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Book_InfoPage!F9"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "86563392-0e39-43f4-99e8-4670667caee2"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "StartupPage"
+          }
+        ],
+        "Text": "Add to cart",
+        "TemplateKey": "Style2"
+      }
+    },
+    "11,1": {
+      "BindingInfo": {
+        "TableName": "View2",
+        "ColumnName": "Description",
+        "GUID": "c897da29-c77d-4d9a-8f08-09f70b5fa8e6"
+      },
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "Style1",
+        "ReadOnly": true
+      }
+    },
+    "22,1": {
+      "CellType": {
+        "$type": "ElementUI.AvatarCellType, ElementUI",
+        "CommandList": [],
+        "showSystemAvatar": true
+      }
+    },
+    "22,5": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {}
+    },
+    "26,20": {
+      "CellType": {
+        "$type": "ElementUI.RateCellType, ElementUI",
+        "CommandList": [],
+        "texts": [
+          {
+            "label": "oops"
+          },
+          {
+            "label": "disappointed"
+          },
+          {
+            "label": "normal"
+          },
+          {
+            "label": "good"
+          },
+          {
+            "label": "great"
+          }
+        ],
+        "voidColor": "#C6D1DE",
+        "colors": [
+          {
+            "color": "#99A9BF"
+          },
+          {
+            "color": "#F7BA2A"
+          },
+          {
+            "color": "#FF9900"
+          }
+        ],
+        "disabledVoidColor": "#EFF2F7"
+      }
+    },
+    "28,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=Book_InfoPage!F23"
+                      }
+                    ]
+                  }
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                  }
+                ],
+                "ID": "06f49697-f540-4bad-becb-ba3753c06f5c"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "IsBought",
+            "TableValue": {
+              "TableName": "OrderDetail",
+              "TableValueType": 3,
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "SubConditions": [
+                  {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "OrderDetail",
+                      "ColumnName": "BookID",
+                      "GUID": "47f144fe-48e7-49b7-a918-86614e04e665"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=Book_InfoPage!F5"
+                    }
+                  },
+                  {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "OrderDetail",
+                      "ColumnName": "FGC_Creator",
+                      "GUID": "840b9890-7e9b-45df-a6e8-37039b0e5e28"
+                    },
+                    "Value": "%CurrentUser.UserName%"
+                  }
+                ]
+              }
+            },
+            "ID": "f93c6f4c56b946528eea6d679e32a271"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=IsBought"
+                      }
+                    ]
+                  },
+                  "value": "0"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "You can only comment after buying this book!"
+                  },
+                  {
+                    "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                  }
+                ],
+                "ID": "15097bcd-ab5e-4d7c-94bd-9e6d4c4bef02"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "CommandList": [],
+                "ID": "33b30160-aa81-4bab-9396-9732f862c2b9"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "Comment",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "UpdateBindingValues": [
+              {
+                "BindingInfo": {
+                  "TableName": "Comment",
+                  "ColumnName": "BookID",
+                  "GUID": "bf3a1bf5-ff26-428b-8f57-23c7f9798268"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Book_InfoPage!F5"
+                }
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "Comment",
+                  "ColumnName": "Content",
+                  "GUID": "75fe85ed-5fa3-4b29-9a11-eb89299b2122"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Book_InfoPage!F23"
+                }
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "Comment",
+                  "ColumnName": "Rate",
+                  "GUID": "286094d6-b1df-403b-8357-560d8b9a81ec"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Book_InfoPage!U27"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Book_InfoPage!F23"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Submit",
+        "TemplateKey": "Style2"
+      }
+    },
+    "31,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "2f8d944418624d329eb720aa0aa0a77",
+        "DataSourceType": 1,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "Comment",
+          "BindingInfos": [
+            {
+              "GUID": "deadf0c3-9121-412a-b83a-9cf18b435a42",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "ID",
+                "GUID": "e52f12d8-2e78-4b26-8973-fd8aa75a2679"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "GUID": "db64aa6f-50f2-44fc-9b7c-e396fac03310",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "BookID",
+                "GUID": "5a4fb189-0e89-459b-8bac-307118d9d098"
+              },
+              "ColumnName": "BookID"
+            },
+            {
+              "GUID": "d69361d9-f789-4a84-a91d-72c9443e1adf",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "Content",
+                "GUID": "23655372-71f1-4da4-bf33-9bfd05a6f138"
+              },
+              "ColumnName": "Content"
+            },
+            {
+              "GUID": "0792ce96-08b9-41d7-abee-5d67d8187bd8",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "FGC_Creator",
+                "GUID": "261c25bd-4051-44c1-bf10-62c0ec0d0957"
+              },
+              "ColumnName": "CreatedBy"
+            },
+            {
+              "GUID": "5f3fd56b-dba3-45e4-9e56-04e6b45fa201",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "FGC_CreateDate",
+                "GUID": "f2f2f7a1-e65c-46d8-b4ec-a15bfb2d3a9a"
+              },
+              "ColumnName": "CreationDate"
+            },
+            {
+              "GUID": "6d9af617-a7d0-4b41-afd9-81a20fb7bf09",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "FGC_LastModifier",
+                "GUID": "ca4729c1-3fb8-4c66-831a-ff8698975a9e"
+              },
+              "ColumnName": "LastModifiedBy"
+            },
+            {
+              "GUID": "1015e5eb-6911-486a-9c17-b6c54060a88c",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "FGC_LastModifyDate",
+                "GUID": "491c1074-0957-4393-9848-9b185bb93b79"
+              },
+              "ColumnName": "LastModificationDate"
+            },
+            {
+              "GUID": "06de0f89-e8f0-411c-8c2c-9004334f5ae5",
+              "BindingInfo": {
+                "TableName": "Comment",
+                "ColumnName": "Rate",
+                "GUID": "0f22e70b-432f-45de-a9e0-4fe262835845"
+              },
+              "ColumnName": "Rate"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "Comment",
+              "ColumnName": "BookID",
+              "GUID": "331284a6-36d6-4691-8a89-2a65a912f044"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Book_InfoPage!F5"
+            }
+          },
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "Comment",
+                  "ColumnName": "FGC_CreateDate",
+                  "GUID": "7159f96b-518c-4c69-8402-7c9e86bd492e"
+                },
+                "Order": 1
+              }
+            ]
+          },
+          "IsListviewDataSource": true,
+          "CustomColumns": []
+        },
+        "DataSourceListviewName": "RepeaterListview2",
+        "NoItemSetting": {
+          "NoItemImageSize": 25.0,
+          "TextForNoItem": "This book has no comment"
+        },
+        "TemplateKey": "_RS_Static"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 26.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 0
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "Formatter": 3
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "Formatter": 4
+      },
+      {
+        "Formatter": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 6
+      },
+      {
+        "FontWeight": 1,
+        "Formatter": 4,
+        "HorizontalAlignment": 8
+      },
+      {
+        "Formatter": 4
+      },
+      {
+        "FontSize": 21.333333333333332,
+        "FontWeight": 1,
+        "VerticalAlignment": 6
+      },
+      {
+        "HorizontalAlignment": 9
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 3 0",
+        "Bold",
+        "Open Sans",
+        "#,##0.00;[Red]#,##0.00",
+        "[AUTO]General",
+        "@",
+        "Top",
+        "Left",
+        "Right",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "2,1": 1,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "4,1": 2,
+      "4,15": 3,
+      "5,1": 2,
+      "6,1": 2,
+      "7,1": 2,
+      "8,1": 2,
+      "8,5": 4,
+      "9,1": 5,
+      "9,10": 3,
+      "9,11": 3,
+      "9,12": 3,
+      "9,13": 3,
+      "10,1": 5,
+      "11,1": 6,
+      "17,15": 3,
+      "17,16": 3,
+      "17,17": 3,
+      "17,18": 3,
+      "17,19": 3,
+      "17,20": 3,
+      "17,21": 3,
+      "17,22": 3,
+      "17,23": 3,
+      "18,15": 3,
+      "18,16": 3,
+      "18,17": 3,
+      "18,18": 3,
+      "18,19": 3,
+      "18,20": 3,
+      "18,21": 3,
+      "18,22": 3,
+      "18,23": 3,
+      "19,15": 3,
+      "19,16": 3,
+      "19,17": 3,
+      "19,18": 3,
+      "19,19": 3,
+      "19,20": 3,
+      "19,21": 3,
+      "19,22": 3,
+      "19,23": 3,
+      "20,15": 3,
+      "20,16": 3,
+      "20,17": 3,
+      "20,18": 3,
+      "20,19": 3,
+      "20,20": 3,
+      "20,21": 3,
+      "20,22": 3,
+      "20,23": 3,
+      "22,1": 7,
+      "22,5": 6,
+      "25,5": 6,
+      "25,6": 6,
+      "25,7": 6,
+      "25,8": 6,
+      "25,9": 6,
+      "25,10": 6,
+      "25,11": 6,
+      "25,12": 6,
+      "25,13": 6,
+      "25,14": 6,
+      "25,15": 6,
+      "25,16": 6,
+      "25,17": 6,
+      "25,18": 6,
+      "25,19": 6,
+      "25,20": 6,
+      "25,21": 6,
+      "25,22": 6,
+      "25,23": 6,
+      "26,18": 8,
+      "28,21": 9,
+      "30,1": 10,
+      "31,1": 11
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "5,1,1,4",
+    "6,1,1,4",
+    "7,1,1,4",
+    "8,1,1,4",
+    "9,1,1,4",
+    "10,1,1,4",
+    "9,5,1,2",
+    "4,1,1,4",
+    "28,21,1,3",
+    "22,5,3,19",
+    "30,1,1,4",
+    "31,1,18,23",
+    "26,18,1,2",
+    "9,10,1,4",
+    "26,20,1,4",
+    "22,1,2,4",
+    "2,1,1,13",
+    "4,5,1,9",
+    "5,5,1,9",
+    "6,5,1,9",
+    "7,5,1,9",
+    "8,5,1,9",
+    "4,15,13,9",
+    "11,1,10,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PageResponsiveMode": 4
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//C8x9HORRHZn3teMjs26ZZzCwmjsDh+AqaSLujZNnSTlTxX26CgPNVj7i3HRB5L3PkDYURzR5lg/e+wk8m9gDMYBBycTeMWKrMwRXgpByqGzo/O7WVjlRdK4ndyETTsSzmewRXT5ZMX0pUyZHh8P5gCxga/5IPzZ40MTs0zBybhzeq7vQi+nU8YuMfsXipNo9Err09zo/OTkEK8vXl0ZI3801nFpJg0ifhhZBdN+92giBA2kCsma8e15PXbyn7xOSqnfEysAndOaH8RKflOQGzmrp5KY6ivoMpMBz52Dqf5jUgkhiQNBbhhAzWuhG79iQFl9IpvkgAj09GGyGLjHoKHz1PFdvBgHDINQRNF7TdWJvecKzG9wJgZNnPXpkkKRsVfVOMcUOiIYRXqgM+fOIMkVJBb6fCl2f3lgnUcLS6Iv2D05wGE/8yDn0K2VCnp0UOLinkV8TC5fV4qlUpgliMNfZ44NYmm71xlQH/an4PL+cS63GodmttFGcwwphj5l23C0em4BtXVXd+DCFmJ55nuQOr3tsCamGT/rOBDRDmbVt0qzYUqngGTdqFOuZbG3DOQbDlJbxkXeSwhhrMndE6/9B7qaMzRhcpwMywukQvr7fY3hg9NHW4TW9L5Xn5mupKfaicQ3O6RnSBJN867P4aIuBCLEgqZf/MKAh2ir6gb8R1HKSqLXnOJMufIjzoVqS3Fsdyxx4NrWLQL7/3X1fKOqhdQFZ0P7nkdA+aJw5eoSgHXz3jFo3w+QeOyWMCiWkyJstbQuoFW0PaGOW+pClvkuqlv7sa5OvugC+Ta+GiGcSH5Coo/R7GKh6w3lbOhPnDCAWC67KsujhVzmSBuwdjjR4CYlW+O7aUa8cWbD1uB/WP8hJmMIToCk1ZER9IMqksEphZH4RMCg8bdVPruOtyA==|920

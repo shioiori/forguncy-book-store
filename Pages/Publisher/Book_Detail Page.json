@@ -1,0 +1,672 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 42.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 21.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 41,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "Count": 20,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "2,2": "Book info",
+    "5,1": "Name",
+    "8,1": "Category",
+    "11,1": "Author",
+    "14,1": "Description",
+    "25,1": "Price",
+    "27,1": "IsSold",
+    "29,1": "Cover",
+    "39,16": "Cancel"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "Style6"
+      }
+    },
+    "1,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "Style7"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "Style5"
+      }
+    },
+    "6,1": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "Name",
+        "GUID": "76b44663-d7fe-41b9-ae38-b108118dd91b"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "9,1": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "CategoryID",
+        "GUID": "a6043b24-2520-4bd5-9843-9b096514c171"
+      },
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "useBinding": true,
+        "options": [
+          {
+            "value": "Option1",
+            "label": "Option1"
+          },
+          {
+            "value": "Option2",
+            "label": "Option2"
+          },
+          {
+            "value": "Option3",
+            "label": "Option3"
+          },
+          {
+            "value": "Option4",
+            "label": "Option4"
+          },
+          {
+            "value": "Option5",
+            "label": "Option5"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "Category",
+          "BindingInfos": [
+            {
+              "GUID": "79d223c8-db81-48b3-b036-a78c96fb2e69",
+              "BindingInfo": {
+                "TableName": "Category",
+                "ColumnName": "ID",
+                "GUID": "f614492e-cc2d-4b2b-828d-84e568a37fc0"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "GUID": "2d7b3f6b-211c-46d6-8ec5-777e125d04a4",
+              "BindingInfo": {
+                "TableName": "Category",
+                "ColumnName": "Name",
+                "GUID": "e2af24e9-6628-4313-be94-1f6542c13182"
+              },
+              "ColumnName": "label"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "placeholder": "Please Select",
+        "noDataText": "No Data",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "Loading"
+        },
+        "noMatchText": "No Match"
+      }
+    },
+    "12,1": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "AuthorID",
+        "GUID": "c08c32ce-cd95-4153-a7ab-fcea55f80c49"
+      },
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "useBinding": true,
+        "options": [
+          {
+            "value": "Option1",
+            "label": "Option1"
+          },
+          {
+            "value": "Option2",
+            "label": "Option2"
+          },
+          {
+            "value": "Option3",
+            "label": "Option3"
+          },
+          {
+            "value": "Option4",
+            "label": "Option4"
+          },
+          {
+            "value": "Option5",
+            "label": "Option5"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "Author",
+          "BindingInfos": [
+            {
+              "GUID": "1ba00ac7-dd24-4c03-88a5-1a5f36aab96e",
+              "BindingInfo": {
+                "TableName": "Author",
+                "ColumnName": "ID",
+                "GUID": "a977f720-0a11-4c73-8f2a-d09578a2257e"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "GUID": "7dd1884e-fb9a-4ffc-95fd-a5ea9adf2c51",
+              "BindingInfo": {
+                "TableName": "Author",
+                "ColumnName": "Name",
+                "GUID": "0d0594c9-7123-4a89-b19f-5af04201b23f"
+              },
+              "ColumnName": "label"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "placeholder": "Please Select",
+        "noDataText": "No Data",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "Loading"
+        },
+        "noMatchText": "No Match"
+      }
+    },
+    "15,1": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "Description",
+        "GUID": "d4c20d8c-0076-4566-ba71-35ac07a3bd51"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "textarea",
+        "resize": "none",
+        "ReadOnly": true
+      }
+    },
+    "25,7": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "Price",
+        "GUID": "b6f58c51-ea0f-4b3b-b850-24e15fc85892"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "27,7": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "IsSold",
+        "GUID": "e941d964-187b-4ad9-835f-3f415a3a446d"
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "30,1": {
+      "BindingInfo": {
+        "TableName": "Book",
+        "ColumnName": "Cover",
+        "GUID": "18abb401-65eb-4663-80c2-f916f039aa62"
+      },
+      "CellType": {
+        "$type": "ElementUI.UploadCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "accept": ".jpg, .jpeg, .png",
+        "buttonText": "Click to upload",
+        "tipText": "Only jpg/png files can be uploaded"
+      }
+    },
+    "39,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Book_Detail Page'!M40"
+                      }
+                    ]
+                  },
+                  "value": "Add"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "Book",
+                    "UpdateType": "add"
+                  }
+                ],
+                "ID": "7832f652-3b24-44dd-b638-2711f88292bc"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='Book_Detail Page'!M40"
+                      }
+                    ]
+                  },
+                  "value": "Edit"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "Book"
+                  }
+                ],
+                "ID": "7ae078c2-ce1d-4310-9790-c1fdf291ed42"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "TemplateKey": "Style2"
+      }
+    },
+    "39,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "Cancel",
+        "TemplateKey": "_RS_Minor3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "TextIndent": 40
+      },
+      {
+        "Background": 0,
+        "Foreground": 0
+      },
+      {
+        "Background": 0,
+        "FontSize": 26.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2
+      },
+      {
+        "FontWeight": 1
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "Formatter": 4,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "Formatter": 4
+      },
+      {
+        "FontWeight": 1,
+        "Formatter": 6
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 3 0",
+        "Bold",
+        "Background 1 0",
+        "Left",
+        "@",
+        "Top",
+        "[AUTO]General",
+        "Open Sans"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "2,1": 1,
+      "2,2": 2,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "5,1": 3,
+      "8,1": 3,
+      "11,1": 3,
+      "14,1": 3,
+      "15,1": 4,
+      "24,1": 5,
+      "24,2": 5,
+      "24,3": 5,
+      "24,4": 5,
+      "24,5": 5,
+      "24,6": 5,
+      "24,7": 5,
+      "24,8": 5,
+      "24,9": 5,
+      "24,10": 5,
+      "24,11": 5,
+      "24,12": 5,
+      "24,13": 5,
+      "24,14": 5,
+      "24,15": 5,
+      "24,16": 5,
+      "24,17": 5,
+      "24,18": 5,
+      "25,1": 3,
+      "26,1": 3,
+      "26,2": 3,
+      "26,3": 3,
+      "26,4": 3,
+      "26,5": 3,
+      "26,6": 3,
+      "26,7": 6,
+      "26,8": 6,
+      "26,9": 6,
+      "26,10": 6,
+      "26,11": 6,
+      "26,12": 6,
+      "26,13": 6,
+      "26,14": 6,
+      "26,15": 6,
+      "26,16": 6,
+      "26,17": 6,
+      "26,18": 6,
+      "27,1": 7,
+      "29,1": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 7
+    }
+  },
+  "Spans": [
+    "1,18,3,1",
+    "2,2,1,13",
+    "5,1,1,6",
+    "8,1,1,6",
+    "11,1,1,6",
+    "14,1,1,6",
+    "25,1,1,6",
+    "27,1,1,6",
+    "29,1,1,6",
+    "39,12,1,3",
+    "39,16,1,3",
+    "30,1,8,18",
+    "6,1,1,18",
+    "9,1,1,18",
+    "12,1,1,18",
+    "15,1,9,18",
+    "25,7,1,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "Book"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//96yY9QrlK9Emvqajw0h+StNhvmuZlJ8aBn0nZeqKn1ps/qAiFx8Ljtm56ql1ZwqRxnnW16xAY9z770H2lz3nVy6yyHcfc0adRbbXIpfnAsqaikKZPxFxBkWqQVb3QuiZ5vrNM5dTOYYBxckackF903CL/ObebqWBJQXvYn0lfpCYz1hSxDaJv2M3+JB2nZZBHjrwhel4LjC7JXnRgvVM+AIxQRZChXWVhMmsIG/lpryiySb7fbb0uWuE1gNxHI6pVyi3stWLf1DspvRoK7lWpq9REHwohvJCJxADC/we0neHnsfm6/5Lqy0BYvVKtF7JBDHLnJmiZK4mT7vrGB3g6ZcnHXx2dyDcPxRV3OsfA+Lzl1BOnmdz32v3e11PnaB/6rUPXDKrYg+L2NjcIhdtn3F/przqzfHEh9oSdFshM6g3ASvnHQ8vZyvYwBzqwhObYbeJlw+ys1E8F05RKaA+Ui1FdnUtWPiFMoBYNrJaBFq3SAYw9ZzEPeu34RMZomKDLloSpXBt++8WtNaZd5Y/37OtTlyvPE6q56Z064cfz+JvxjNRHTGVOus3ajDJL7F7LI8Um4DAnum4MN5vwOaq3r1RKYB94VRv+Mbdzw0D7p9wvGEjObi9lg7xDosCTynlJ38YHoV8BxN4OoE3QEeWW4P/xQP2sQ7wb2rRNl4vDy5tnNRG2EHO9ReBE/kIsL2MSPBxs95MoQJRAabvdUh//qER/pV8pd9dyu/P3y+jXNwrZjxu1B2eWMOEW6NuUecG25+WjcmYrHvnW3q5HyNGIfB0ypENufnaQN2XPTZiOkv9/GsqHTBaRHfioYlivCEGwt0rvem6a0O/xOH6Oba4hPvoTeIwer1OOHY8il2bF/kv6O46uLy3IPRt6HcHWQ2NcSub85PI7faEY49oPefGpQ==|920

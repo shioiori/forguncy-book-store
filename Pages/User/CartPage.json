@@ -1,0 +1,663 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "IsHidden": true
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      26
+    ],
+    "Count": 32,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 39.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      14
+    ],
+    "Count": 18,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "2,1": "Cart",
+    "5,8": "Unit Price",
+    "5,11": "Total Price",
+    "27,14": "Buy"
+  },
+  "Formulas": {
+    "6,11": "G7*I7",
+    "26,15": "SUM(L7)"
+  },
+  "AttachInfos": {
+    "5,1": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "Cart",
+        "RowIndex": 5,
+        "ColumnIndex": 1,
+        "RowCount": 21,
+        "ColumnCount": 16,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "Cart",
+            "ColumnName": "FGC_Creator",
+            "GUID": "bc3012dd-986d-4f54-bd42-7ff781b633e7"
+          },
+          "Value": "%CurrentUser%"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "Custom1",
+        "ShowColumnHeaderInDesigner": true,
+        "IsTotalRowVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,2": {
+      "NameUsedInJavaScript": "BookID",
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "Cart",
+        "ColumnName": "BookID",
+        "GUID": "f85ed0c3-dcb4-43d4-bcb8-6bcbe3a4334a",
+        "RelationBinding": {
+          "RelatedTable": "Book",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "Name"
+        }
+      }
+    },
+    "6,6": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "Cart",
+        "ColumnName": "Quantity",
+        "GUID": "311fa3e6-c865-4e34-88de-a2323f42ce74"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 4,
+        "FirstParamValue": "0",
+        "IgnoreBlank": false
+      }
+    },
+    "6,8": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "Cart",
+        "ColumnName": "UnitPrice",
+        "GUID": "22491201-1c3f-44fd-b5c9-b12407783d77"
+      }
+    },
+    "6,11": {
+      "TotalRowSetting": {
+        "StaticText": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=SUM(CartPage!L7)"
+        },
+        "StyleInfo": {
+          "FontFamily": "Segoe UI",
+          "FontWeight": "Bold",
+          "HorizontalAlignment": 0,
+          "Foreground": "Accent 3 0",
+          "Formatter": "#,##0.00;[Red]#,##0.00"
+        }
+      }
+    },
+    "6,14": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "Cart",
+        "ColumnName": "BookID",
+        "GUID": "b94b1f5b-5874-48bb-bde4-798b584cd292"
+      }
+    },
+    "6,15": {
+      "TotalRowSetting": {}
+    },
+    "27,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "Order",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "UpdateBindingValues": [
+              {
+                "BindingInfo": {
+                  "TableName": "Order",
+                  "ColumnName": "TotalPrice",
+                  "GUID": "94831b40-997b-4971-83ed-a7b8c32e1201"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=CartPage!P27"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "CurrentOrderID",
+            "TableValue": {
+              "TableName": "Order",
+              "OnlyGetValue": true,
+              "TableValueType": 0,
+              "BindingInfos": [
+                {
+                  "GUID": "4248dccb-84b7-454e-ae2a-d7189efddfb0",
+                  "BindingInfo": {
+                    "TableName": "Order",
+                    "ColumnName": "ID",
+                    "GUID": "323234e2-4bfc-47f8-b0b8-95456415173b"
+                  },
+                  "ColumnName": "ID"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "Order",
+                  "ColumnName": "FGC_Creator",
+                  "GUID": "f4398b6e-b463-473a-b990-9a238a2ae5bf"
+                },
+                "Value": "%CurrentUser%"
+              },
+              "TopCount": "1",
+              "OrderBySqlCondition": {
+                "OrderByColumns": [
+                  {
+                    "ColumnBindingInfo": {
+                      "TableName": "Order",
+                      "ColumnName": "FGC_CreateDate",
+                      "GUID": "da3aeeec-c535-4415-9b9e-53df4ee8f3fa"
+                    },
+                    "Order": 1
+                  }
+                ]
+              }
+            },
+            "ID": "3d6e306b0b8f48bba85fa7e8bf67cb22"
+          },
+          {
+            "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+            "LoopInfo": {
+              "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
+              "ListviewName": "Listview1"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                "TableName": "OrderDetail",
+                "UpdateType": "add",
+                "ShowConfirm": false,
+                "UpdateBindingValues": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "OrderDetail",
+                      "ColumnName": "OrderID",
+                      "GUID": "7cefb69d-e98d-4818-9996-e419f73fb2fe"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=CartPage!CurrentOrderID"
+                    }
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "OrderDetail",
+                      "ColumnName": "BookID",
+                      "GUID": "ce70cfbe-ddd9-413c-8c5c-1569d53a5fa9"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=CartPage!O7"
+                    }
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "OrderDetail",
+                      "ColumnName": "Quantity",
+                      "GUID": "a4e9db16-772a-4f18-b788-7d42a1dcc02a"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=CartPage!G7"
+                    }
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "OrderDetail",
+                      "ColumnName": "UnitPrice",
+                      "GUID": "2b51a67f-dfa5-42f5-b5fb-35be482bd75c"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=CartPage!I7"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "Cart",
+            "UpdateType": "delete",
+            "ShowConfirm": false,
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "Cart",
+                "ColumnName": "FGC_Creator",
+                "GUID": "02e10c24-88a3-4133-ae15-46cedfd0b906"
+              },
+              "Value": "%CurrentUser.UserName%"
+            }
+          },
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "From": "clara.phung@developertools.com",
+            "EnhancedRecipient": {
+              "CommonValue": "%CurrentUser.Email%"
+            },
+            "Subject": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=\"Invoice for bill \"&CartPage!CurrentOrderID"
+            },
+            "Content": "Your order is successful registed.\r\n\r\nBillcode [%CurrentRow=(Order,ID)%]\r\nTotal      [%CurrentRow=(Order,TotalPrice)%]\r\nDate      [%CurrentRow=(Order,CreationDate)%]\r\n\r\nTo see detail, click [%PageNavigate=(OrderHistory_Page,Click Here)%]\r\n\r\n",
+            "ID": "b88ce9bd2a994d5b9d938f58aeaeb952"
+          },
+          {
+            "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "OrderHistory_Page"
+          }
+        ],
+        "Text": "Buy",
+        "TemplateKey": "Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 26.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 0,
+        "Formatter": 2
+      },
+      {
+        "Foreground": 3
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 4
+      },
+      {
+        "Formatter": 5
+      },
+      {
+        "Formatter": 6
+      },
+      {
+        "Foreground": 7,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 9
+      },
+      {
+        "FontSize": 16.0,
+        "HorizontalAlignment": 9
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 3 0",
+        "Bold",
+        "[AUTO]General",
+        "Background 1 -15",
+        "@",
+        "#,##0;[Red]#,##0",
+        "#,##0.00;[Red]#,##0.00",
+        "Accent 5 0",
+        "Center",
+        "Right",
+        "Open Sans"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "2,1": 1,
+      "2,16": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "4,1": 2,
+      "5,2": 3,
+      "5,3": 3,
+      "5,4": 3,
+      "5,5": 3,
+      "5,6": 4,
+      "5,8": 5,
+      "5,9": 3,
+      "5,10": 3,
+      "5,11": 5,
+      "5,12": 3,
+      "5,13": 3,
+      "5,14": 5,
+      "5,15": 4,
+      "6,6": 6,
+      "6,8": 7,
+      "6,11": 8,
+      "6,14": 3,
+      "6,15": 9,
+      "26,14": 10,
+      "26,15": 11
+    },
+    "RowStyles": {
+      "5": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 10
+    }
+  },
+  "Spans": [
+    "2,1,1,14",
+    "4,1,1,16",
+    "26,15,1,2",
+    "27,14,2,3",
+    "7,1,19,16",
+    "6,2,1,4",
+    "6,6,1,2",
+    "6,8,1,3",
+    "6,11,1,3",
+    "6,15,1,2",
+    "5,2,1,4",
+    "5,6,1,2",
+    "5,8,1,3",
+    "5,11,1,3",
+    "5,15,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "UserPage",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "Cart",
+    "PageResponsiveMode": 2
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Pictures": [
+    {
+      "Name": "708b6df1-5b9e-42a7-a30d-fc1fd876b354.svg",
+      "ForguncyPictureName": "Application/037_delete_2.svg",
+      "Stretch": 2,
+      "PictureCommands": [
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "Cart",
+          "UpdateType": "delete",
+          "ShowConfirm": true,
+          "ConfirmText": "Are you sure you want to delete?"
+        }
+      ],
+      "ForegroundFill": "Accent 5 0",
+      "Location": "927,142",
+      "Size": "28,27"
+    }
+  ]
+}//gzuLf+Ei/DJKo4X9niFBGlo/ZR1Rf+JUbJEw6OMqY9lfyKNrSzn7vOTbu1+ehUkjI49oK+gOhm5+pXNyHUHYmwenCmliB6+M4liV9rh38xwyXx3qoD1daV6IyPrL6FG09QBA24noBpKmFOPO6KZu1A6kvs9LH8cAF3Sq9Zmn3JK3QS1nk/ig+OlaEyH8NCqXe7Jmh7EYzRA+u71BUXmzNJyUsBBdb273xi1z0fj0Jb6sZqWVVhjxxkRdX27sCgtXyUWhu4RiKez2bsunIwlNEqHC5OOi+UjOpRMn8IXKDcglr/qwtNnGiTkvzhIvbUtNvCw7eJ8Whus9+2slV7133Fs6r28l8lFNJganDw/DmW/S+mFx0lONJRGVMVMX/8EfqQxLa4+fNW0TDQbJ+xe+msx3q++40u0ZZkdhXuellJ7M7oCm4GXWc05oqZq9ZTQaGTKFMDtz/BMbbHN4M80mJuVh39SfLWImQDfC0biNKTvaP3vnvjVu/nqIcw+pS5WTIEwD+PL+pOrulijg2RCenwAVhG3zzQSFEjgBcaBRd4OqqZzTz/MAwIyAkHskTojVV71lft04F+RIyeAH+JZ6Q3Kvm/UNDmS1ltcPaJWdFW4bsd5CeDP8cyN1bgbvn9hhToevNx+7jNcesPl/Vy2rn8FSu5FUk/wG0o8Cp3VZgjlUEXo9idn/ly8DnzLao8F3jqt6tqVhtT9Xxj+9pz6OIu6JFrH3xqXSZ+PEr31BrUg6MGvrCcItjVvGOz9wCDxRMZ6Wo+4VNL48dH/suGJhte+JVhI3ylEQUeRstJHZaJz/7Zw61wHVPbCnHea72W35EQ7JVuTq6M263ZI/2beQ/6PyLJ1vaHGICjnHZML0U4/jCyY5N5OByBmpyvo0lIK4pdMLeYcmhRM21ymHAEEdhA==|920
