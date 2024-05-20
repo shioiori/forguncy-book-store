@@ -6,7 +6,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778053+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435648+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Author.json",
@@ -21,7 +21,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2777935+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435581+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Category.json",
@@ -36,7 +36,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.277813+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.443571+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\User.json",
@@ -51,7 +51,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778006+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435615+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Cart.json",
@@ -66,7 +66,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778151+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435727+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Book.json",
@@ -81,7 +81,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778028+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435633+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Comment.json",
@@ -96,7 +96,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778173+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435745+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\Order.json",
@@ -111,7 +111,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778076+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435675+07:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\OrderDetail.json",
@@ -126,7 +126,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2777982+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435599+07:00",
     "ModuleType": 23,
     "ToRemoveFiles": [
       "Tables\\View1.json",
@@ -141,7 +141,7 @@
       "UserName": "GRAPECITY\\ClaraPhung",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-17T14:18:59.2778107+07:00",
+    "LockDateTime": "2024-05-20T09:32:51.4435692+07:00",
     "ModuleType": 23,
     "ToRemoveFiles": [
       "Tables\\View2.json",
@@ -400,7 +400,17 @@
   },
   {
     "ModuleName": "ApplicationSetting",
-    "ModuleType": 8
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-20T09:32:51.4435765+07:00",
+    "ModuleType": 8,
+    "ToRemoveFiles": [
+      "ApplicationSettings.json",
+      "favicon.ico"
+    ]
   },
   {
     "ModuleName": "Theme",
@@ -498,5 +508,15 @@
     },
     "LockDateTime": "2024-05-17T13:41:27.1258294+07:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/FGC_StatusInfo",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ClaraPhung",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-20T09:32:51.4435523+07:00",
+    "ModuleType": 7
   }
 ]
